@@ -21,7 +21,7 @@ ul , li{
 }
 
 .container img{
-    max-width: 90%;
+    max-width: 80%;
 }
 
 
@@ -50,11 +50,15 @@ p{
 
 .bg-grey{
     background-color: #ece7e7;
+    padding-top: 40px;
+    padding-bottom:30px ;
    }
 
 
 .bg-color{
     background-color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }  
 
 
@@ -64,41 +68,18 @@ p{
 
 
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.debug .footer{
-    padding: 20px 20px 50px 20px;
-}
-
-
-
-
-
-/* LAYOUT */
+ /* LAYOUT */
 
 
 header{
-    background-color:rgb(44, 103, 199)
+    background-color:#255ee9
 }
 
 
 .header{
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 
 
@@ -197,13 +178,11 @@ button{
 
 
 
-
-
 .reverse{
 flex-direction: row-reverse;
 }
 
-
+.col-1 img
 
 
 .col-3{
@@ -285,6 +264,10 @@ flex-direction: row-reverse;
     color: white;
     font-size: 12px;
     margin-top: 5px;
+}
+
+.footer{
+    padding: 20px 20px 50px 20px;
 }
 
 
