@@ -21,7 +21,7 @@ ul , li{
 }
 
 .container img{
-    max-width: 100%;
+    max-width: 90%;
 }
 
 
@@ -30,7 +30,7 @@ ul , li{
 
 .debug .container{
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 
@@ -143,7 +143,7 @@ a{
 button{
     margin-top: 50px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 25px;
     border: none;
     font-family: 'Abel', sans-serif;
     font-family: 'Inconsolata', monospace;
@@ -160,7 +160,7 @@ button .ios {
 .browser {
     background-color: black;
     color: white;
-    
+    margin-left: 20px;
 }
 
 .col-1{
@@ -185,7 +185,7 @@ button .ios {
 }
 
 .bg-color-cecece{
-    background-color: #cecece;
+    background-color: #f0eded;
 }
 
 .reverse{
