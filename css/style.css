@@ -11,6 +11,7 @@ body{
     font-family: 'Inconsolata', monospace;
     font-family: 'Jost', sans-serif;
     font-family: 'Nabla', system-ui;
+    font-family: 'Outfit', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -115,6 +116,7 @@ header{
 .bg-mainimg{
     background-image: url(../img/discord/jumbo.png);
     background-size: cover;
+    background-position: center;
     min-height: 400px;
 }
 
@@ -182,18 +184,31 @@ button{
 flex-direction: row-reverse;
 }
 
-.col-1 img
+.img-reverse{
+    position: relative;
+    left: 50px;
+}
 
 
 .col-3{
     max-width: 100%;
     min-height: 500px;
     text-align: center;
+    
 }
 
 .col-3 p{
     margin-top: 30px;
 }
+
+.background{
+    background-image: url(../img/discord/stars.svg);
+    text-align: center;
+    min-width: 500px;
+    background-size: contain;
+}
+
+
 
 .download-ios{
     border-radius: 20px;
@@ -281,6 +296,8 @@ flex-direction: row-reverse;
 
 .sing-in{
     margin: 0;
+    background-color:rgb(44, 103, 199);
+    color: white ;
 }
 
 
