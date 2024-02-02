@@ -35,10 +35,6 @@ ul , li{
 
 
 
-.debug .header{
-    justify-content: space-between;
-    align-items: center;
-}
  
 
 
@@ -75,6 +71,12 @@ ul , li{
 
 header{
     background-color:rgb(44, 103, 199)
+}
+
+
+.header{
+    justify-content: space-between;
+    align-items: center;
 }
 
 .center{
@@ -214,14 +216,40 @@ flex-direction: row-reverse;
 .download-ios:hover{
      color: white;
 }
+
+.main-footer{
+    justify-content: center;
+}
+
+
 .col-4{
-    min-width: 220px;
+    color:rgb(44, 103, 199) ;
+    max-width: calc(*2 100% / 6);
     min-height: 200px;
-    background-color: red;
+}
+
+.col-4 img{
+    max-width: 20px;
+    margin-top: 10px;
+}
+
+.lenguage{
+    background: none;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.icon{
+    margin-top: 20px;
+}
+
+.icon >a img{
+    min-width: 30px;
 }
 
 .col-5 , .col-6 , .col-7 , .col-8{
-    min-width: 110px;
+    min-width: calc(100% / 6);
     min-height: 200px;
     background-color: aquamarine;
 }
