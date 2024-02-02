@@ -1,0 +1,170 @@
+/* RESET */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul , li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container img{
+    max-width: 100%;
+}
+
+
+
+/* DEBUG */
+
+.debug .container{
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+
+.debug .row-flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.debug .header{
+    justify-content: space-between;
+}
+ 
+
+.debug .link-list{
+    border: 1px solid black; 
+    padding: 10px;
+}
+
+.debug a{
+    text-decoration: none;
+    color: black;
+}
+
+.debug .logo{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.debug .login{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.debug .bg-color-blue{
+    background-color: blue;
+}
+
+.debug .bg-color-white{
+    background-color: white;
+}
+
+.debug .bg-color-cecece{
+    background-color: #cecece;
+}
+
+.debug .bg-color-dedede{
+    background-color: #dedede;
+}
+
+.debug .foot-bg-color{
+    background-color: rgb(55, 55, 55);
+}
+
+.debug .foot-link-bg-color{
+    background-color: rgb(108, 107, 107);
+}
+
+.debug .col-5 , .col-6 , .col-7 , .col-8{
+    border: 1px solid black;
+}
+
+.debug .footer{
+    padding: 20px 20px 0 20px;
+}
+
+.debug .button-footer , .logo-footer{
+    border: 1px solid black;
+}
+
+
+
+/* LAYOUT */
+
+header{
+    background-color: aqua;
+}
+
+.center{
+    justify-content: center;
+}
+
+
+
+
+.link-list{
+    
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+.col{
+    min-width: 70%;
+    min-height: 200px;
+    background-color: pink;
+}
+
+.col-1{
+    min-width: 70%;
+    min-height: 200px;
+    background-color: blue;
+}
+
+.col-2{
+    min-width: 30%;
+    min-height: 200px;
+    background-color: pink;
+}
+
+.reverse{
+flex-direction: row-reverse;
+}
+
+.col-3{
+    min-width: 100%;
+    min-height: 500px;
+    background-color: green;
+}
+
+.col-4{
+    min-width: 220px;
+    min-height: 200px;
+    background-color: red;
+}
+
+.col-5 , .col-6 , .col-7 , .col-8{
+    min-width: 110px;
+    min-height: 200px;
+    background-color: aquamarine;
+}
+
+
+
+
+.col-footer{
+    background-color: aquamarine;
+    min-width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
