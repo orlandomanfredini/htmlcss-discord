@@ -48,9 +48,6 @@ ul , li{
 
 
 
-.debug .bg-color-dedede{
-    background-color: #dedede;
-}
 
 .debug .foot-bg-color{
     background-color: rgb(55, 55, 55);
@@ -116,7 +113,7 @@ a{
 .row-flex{
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 30px;
 }
 
 .bg-color-blue{
@@ -192,12 +189,31 @@ button .ios {
 flex-direction: row-reverse;
 }
 
-.col-3{
-    min-width: 100%;
-    min-height: 500px;
-    background-color: green;
+
+.bg-color-dedede{
+    background-color: #f0eded;
 }
 
+.col-3{
+    max-width: 100%;
+    min-height: 500px;
+    text-align: center;
+}
+
+.col-3 p{
+    margin-top: 30px;
+}
+
+.download-ios{
+    border-radius: 20px;
+    background-color:rgb(44, 103, 199);
+    margin-top: 20px;
+
+}
+
+.download-ios:hover{
+     color: white;
+}
 .col-4{
     min-width: 220px;
     min-height: 200px;
