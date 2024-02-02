@@ -47,21 +47,18 @@ ul , li{
 
 .debug .foot-bg-color{
     background-color: rgb(55, 55, 55);
+    
 }
 
-.debug .foot-link-bg-color{
-    background-color: rgb(108, 107, 107);
-}
+
 
 
 
 .debug .footer{
-    padding: 20px 20px 0 20px;
+    padding: 20px 20px 50px 20px;
 }
 
-.debug .button-footer , .logo-footer{
-    border: 1px solid black;
-}
+
 
 
 
@@ -276,14 +273,26 @@ flex-direction: row-reverse;
     
 }
 
+.main-footer{
+    border-bottom: 1px solid rgb(44, 103, 199);
+}
+
 
 
 
 .col-footer{
-    background-color: aquamarine;
     min-width: 100%;
     min-height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.sing-in{
+    margin: 0;
+    background-color:rgb(44, 103, 199);
+}
+
+.sing-in:hover{
+    color: white;
 }
