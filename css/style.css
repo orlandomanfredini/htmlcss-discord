@@ -30,7 +30,7 @@ ul , li{
 
 .debug .container{
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 
@@ -44,13 +44,9 @@ ul , li{
 
 
 
-.debug .bg-color-white{
-    background-color: white;
-}
 
-.debug .bg-color-cecece{
-    background-color: #cecece;
-}
+
+
 
 .debug .bg-color-dedede{
     background-color: #dedede;
@@ -182,6 +178,14 @@ button .ios {
 
 .col-2 p{
     margin-top: 40px;
+}
+
+.bg-color-white{
+    background-color: white;
+}
+
+.bg-color-cecece{
+    background-color: #cecece;
 }
 
 .reverse{
