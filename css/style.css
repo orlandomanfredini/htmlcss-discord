@@ -8,10 +8,10 @@
 
 body{
     font-family: 'Abel', sans-serif;
-font-family: 'Inconsolata', monospace;
-font-family: 'Jost', sans-serif;
-font-family: 'Nabla', system-ui;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Nabla', system-ui;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul , li{
@@ -42,9 +42,7 @@ ul , li{
  
 
 
-.debug .bg-color-blue{
-    background-color: blue;
-}
+
 
 .debug .bg-color-white{
     background-color: white;
@@ -83,7 +81,7 @@ ul , li{
 /* LAYOUT */
 
 header{
-    background-color:rgb(84, 96, 205)
+    background-color:rgb(44, 103, 199)
 }
 
 .center{
@@ -96,7 +94,6 @@ header{
 
 
 .link-list{
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,12 +123,48 @@ a{
     padding: 20px;
 }
 
+.bg-color-blue{
+    background-image: url(../img/discord/jumbo.png);
+    background-size: cover;
+    min-height: 400px;
+}
+
 
 
 .col{
-    min-width: 70%;
-    min-height: 200px;
-    background-color: pink;
+    max-width: 70%;
+    min-height: 300px;
+    text-align: center;
+    color: white;
+    
+}
+
+.col h2{
+    padding: 40px;
+    font-weight: 800;
+}
+
+button{
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Nabla', system-ui;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+button .ios {
+    background-color: white;
+}
+
+.browser {
+    background-color: black;
+    color: white;
+    
 }
 
 .col-1{
