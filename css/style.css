@@ -53,9 +53,7 @@ ul , li{
     background-color: rgb(108, 107, 107);
 }
 
-.debug .col-5 , .col-6 , .col-7 , .col-8{
-    border: 1px solid black;
-}
+
 
 .debug .footer{
     padding: 20px 20px 0 20px;
@@ -223,9 +221,12 @@ flex-direction: row-reverse;
 
 
 .col-4{
+    padding-left: 20px;
+    padding-right: 20px;
     color:rgb(44, 103, 199) ;
     max-width: calc(*2 100% / 6);
     min-height: 200px;
+    
 }
 
 .col-4 img{
@@ -249,9 +250,30 @@ flex-direction: row-reverse;
 }
 
 .col-5 , .col-6 , .col-7 , .col-8{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col-5 h4{
+    color:rgb(44, 103, 199);
+    
+    
+}
+
+.col-5  li{
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+  
+    
+}
+
+
+
+.col-5 , .col-6 , .col-7 , .col-8{
     min-width: calc(100% / 6);
     min-height: 200px;
-    background-color: aquamarine;
+    
 }
 
 
