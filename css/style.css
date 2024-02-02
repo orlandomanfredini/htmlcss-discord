@@ -6,6 +6,14 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Abel', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Jost', sans-serif;
+font-family: 'Nabla', system-ui;
+font-family: 'Roboto', sans-serif;
+}
+
 ul , li{
     list-style: none;
     margin: 0;
@@ -22,40 +30,17 @@ ul , li{
 
 .debug .container{
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 800px;
 }
 
 
-.debug .row-flex{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-}
 
 .debug .header{
     justify-content: space-between;
+    align-items: center;
 }
  
 
-.debug .link-list{
-    border: 1px solid black; 
-    padding: 10px;
-}
-
-.debug a{
-    text-decoration: none;
-    color: black;
-}
-
-.debug .logo{
-    border: 1px solid black;
-    padding: 10px;
-}
-
-.debug .login{
-    padding: 10px;
-    border: 1px solid black;
-}
 
 .debug .bg-color-blue{
     background-color: blue;
@@ -98,21 +83,47 @@ ul , li{
 /* LAYOUT */
 
 header{
-    background-color: aqua;
+    background-color:rgb(84, 96, 205)
 }
 
 .center{
     justify-content: center;
 }
 
-
+.logo img{
+    padding-top: 10px;
+}
 
 
 .link-list{
     
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+.login{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10%;
+    
+    
+}
+
+.login a{
+    color: black;
+}
+
+.row-flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 
