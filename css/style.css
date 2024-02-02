@@ -26,12 +26,41 @@ ul , li{
 
 
 
-/* DEBUG */
+/* Ripetitivi */
 
-.debug .container{
+.container{
     margin: 0 auto;
     max-width: 1000px;
 }
+
+.row-flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+p{
+    font-size: 18px;
+}
+
+.bg-grey{
+    background-color: #ece7e7;
+   }
+
+
+.bg-color{
+    background-color: white;
+}  
+
+
+
+
+
 
 
 
@@ -45,10 +74,7 @@ ul , li{
 
 
 
-.debug .foot-bg-color{
-    background-color: rgb(55, 55, 55);
-    
-}
+
 
 
 
@@ -64,6 +90,7 @@ ul , li{
 
 /* LAYOUT */
 
+
 header{
     background-color:rgb(44, 103, 199)
 }
@@ -74,9 +101,7 @@ header{
     align-items: center;
 }
 
-.center{
-    justify-content: center;
-}
+
 
 .logo img{
     padding-top: 10px;
@@ -90,43 +115,37 @@ header{
     gap: 15px;
 }
 
-a{
-    text-decoration: none;
-    color: white
+.link-list a{
+    font-size: 15px;
 }
 
 .login{
     padding: 10px;
     background-color: white;
     border-radius: 10%;
-    
-    
 }
+
 
 .login a{
     color: black;
 }
 
-.row-flex{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 30px;
-}
 
-.bg-color-blue{
+.bg-mainimg{
     background-image: url(../img/discord/jumbo.png);
     background-size: cover;
     min-height: 400px;
 }
 
-
+.center{
+    justify-content: center;
+}
 
 .col{
     max-width: 70%;
     min-height: 300px;
     text-align: center;
     color: white;
-    
 }
 
 .col h2{
@@ -147,15 +166,17 @@ button{
     
 }
 
-button .ios {
+.ios {
     background-color: white;
 }
 
-.browser {
+ .browser {
     background-color: black;
     color: white;
     margin-left: 20px;
 }
+
+
 
 .col-1{
     max-width: 70%;
@@ -174,22 +195,16 @@ button .ios {
     margin-top: 40px;
 }
 
-.bg-color-white{
-    background-color: white;
-}
 
-.bg-color-cecece{
-    background-color: #f0eded;
-}
+
+
 
 .reverse{
 flex-direction: row-reverse;
 }
 
 
-.bg-color-dedede{
-    background-color: #f0eded;
-}
+
 
 .col-3{
     max-width: 100%;
@@ -212,8 +227,14 @@ flex-direction: row-reverse;
      color: white;
 }
 
+.foot-bg-color{
+    background-color: rgb(55, 55, 55);
+    
+}
+
 .main-footer{
     justify-content: center;
+    border-bottom: 1px solid rgb(44, 103, 199);
 }
 
 
@@ -246,9 +267,12 @@ flex-direction: row-reverse;
     min-width: 30px;
 }
 
+
 .col-5 , .col-6 , .col-7 , .col-8{
     padding-left: 20px;
     padding-right: 20px;
+    min-width: calc(100% / 6);
+    min-height: 200px;
 }
 
 .col-5 , .col-6 , .col-7 , .col-8 , h4{
@@ -261,23 +285,7 @@ flex-direction: row-reverse;
     color: white;
     font-size: 12px;
     margin-top: 5px;
-  
-    
 }
-
-
-
-.col-5 , .col-6 , .col-7 , .col-8{
-    min-width: calc(100% / 6);
-    min-height: 200px;
-    
-}
-
-.main-footer{
-    border-bottom: 1px solid rgb(44, 103, 199);
-}
-
-
 
 
 .col-footer{
@@ -290,9 +298,8 @@ flex-direction: row-reverse;
 
 .sing-in{
     margin: 0;
-    background-color:rgb(44, 103, 199);
 }
 
-.sing-in:hover{
-    color: white;
-}
+
+
+
