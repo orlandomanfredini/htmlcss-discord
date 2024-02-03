@@ -37,7 +37,7 @@ ul , li{
 .row-flex{
     display: flex;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 0 30px 30px 30px;
 }
 
 a{
@@ -184,6 +184,10 @@ button{
     margin-left: 20px;
 }
 
+.padding20{
+    padding-top: 130px;
+}
+
 
 
 .col-1{
@@ -203,11 +207,10 @@ button{
     margin-top: 40px;
 }
 
-
-
 .reverse{
 flex-direction: row-reverse;
 }
+
 
 .img-reverse{
     position: relative;
